@@ -1,0 +1,41 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#product-overview {
+     background: #ff1b68;
+ }
+
+
+.section-title {
+     color: #2ddf5c;
+ }
+
+
+#product-overview h1 {
+     color: white;
+     font-family: 'Anton', sans-serif;
+ }
+
+
+/* h1 {
+    font-family: sans-serif;
+} */
+/* inline styles > #id selectors > .class, :pseudo-class and [attribute] selectors > <Tag> and ::pseudo-element selectors */
+
+/* 
+* Adjacent sibling combinator -> + -> assigns style to the all elements directyle followed by left element, e.g div + p all p's directly followed by divs
+Elements must share the same parent, and second element must come immediately after first element...
+
+* General sibling combinator -> ~ -> assigns style to the all elements followed by left element, e.g div~p all p's that are directly or indirectly follwed by div
+Elements must share the same parent, and second element must come after first element
+
+
+* Child combinator -> > -> assigns style to the all elements that are direct children of the left element, e.g div > p all p's that are direct children of the div
+Second element is a direct child of the first element
+
+* Descendant combinator ->   -> like child combinator, but difference is right element need not to be the direct child of the left element, it's a descendant e.g div p
+
+Second element is a descendant of the first element.
+*
+*/
